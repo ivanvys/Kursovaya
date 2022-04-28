@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+* {
+margin: 0;
+}
+.body,html {
+width: 100%;
+}
+.firstsection {
+max-width: 100%;
+max-height: 747px;
+background: url(/image/Image_for_firstsection.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.firstsection__blackout {
+height: 100%;
+background: url(/image/Image_for_firstsection_dark.svg);
+}
+.firstsection__header {
+width: 78%;
+max-height: 100px;
+margin: 0 auto;
+border-bottom: solid #BABBC5 1px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+}
+.firstsection__header-menu {
+width: 100%;
+max-width: 670px;
+display: flex;
+}
+.firstsection__header-menu-chapter {
+width: 100%;
+max-width: 134px;
+font: 700 13px 'Raleway';
+display: grid;
+height: 100px;
+align-items: center;
+color: white;
+text-align: center;
+}
+.firstsection__header-menu-chapter:hover {
+border-bottom: #BABBC5 3px solid;
+height: 97px;
+cursor: pointer;
+}
+.firstsection__header-menu-chapter:active {
+color: rgba(231, 20, 20, 1);
+border-bottom: rgba(231, 20, 20, 1) 3px solid;
+}
+
+.firstsection__section {
+width: 78%;
+height: 646px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+justify-content:space-around;
+}
+.firstsection__section-title {
+text-align: center;
+text-transform: uppercase;
+color: #FFFFFF;
+font: normal 900 64px 'Raleway';
+}
+.firstsection__section-paragraph {
+font: normal 400 24px 'Raleway';
+text-align: center;
+color: #FFFFFF;
+}
+.firstsection__section-button {
+width: 100%;
+max-width: 369px;
+max-height: 80px;
+height: 100%;
+margin: 0 auto;
+font: normal 900 24px 'Raleway';
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: uppercase;
+color: #FFFFFF;
+background-color: rgba(255, 67, 67, 1);
+border: none;
+}
+.firstsection__section-button:hover{
+background: rgba(231, 20, 20, 1);
+cursor: pointer;
+}
+.firstsection__section-button:active {
+background: rgba(255, 67, 67, 1);
+box-shadow: 0 0 20px 4px rgba(255, 67, 67, 1);
+}
+.secondsection {
+max-width: 100%;
+}
+.secondsection__container{
+max-width: 78%;
+height: 949px;
+display: grid;
+margin: 0 auto;
+}
