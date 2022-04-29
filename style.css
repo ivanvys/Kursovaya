@@ -51,7 +51,6 @@ cursor: pointer;
 color: rgba(231, 20, 20, 1);
 border-bottom: rgba(231, 20, 20, 1) 3px solid;
 }
-
 .firstsection__section {
 width: 78%;
 height: 646px;
@@ -102,12 +101,10 @@ height: 100%
 max-width: 78%;
 height: 717px;
 margin: 10vw auto;
-
 display: grid;
 grid-template-rows: 1fr 1fr;
 grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 1vw;
-
 }
 .secondsection__container-content {
 max-width: 390px;
