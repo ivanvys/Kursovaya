@@ -1,10 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway&family=Cardo&display=swap');
 * {
 margin: 0;
 }
+p {
+    margin-bottom: 0rem !important;
+}
 .body,html {
 width: 100%;
-height: 100%;
+height: auto;
 }
 .firstsection {
 max-width: 100%;
@@ -15,7 +18,7 @@ background-size: cover;
 background-position: center;
 }
 .firstsection__blackout {
-height: 100%;
+height: auto;
 background: url(/image/Image_for_firstsection_dark.svg);
 }
 .firstsection__header {
@@ -45,7 +48,7 @@ text-align: center;
 }
 .firstsection__header-menu-chapter:hover {
 border-bottom: #BABBC5 3px solid;
-height: 97px;
+height: 100px;
 cursor: pointer;
 }
 .firstsection__header-menu-chapter:active {
@@ -197,11 +200,11 @@ background-size: cover;
 }
 .fourthsection {
 width: 100%;
-height: 100%;
+height: auto;
 }
 .fourthsection__container {
 width: 78%;
-margin: 11vh auto;
+margin: 16vh auto;
 display: grid;
 grid-template-columns: 1fr 1fr 1fr 1fr;
 grid-gap: 1vw;
@@ -216,19 +219,55 @@ height: auto;
 font: normal 700 24px 'Raleway';
 text-transform: capitalize;
 color: #2D3033;
+position: relative;
+top: 5%;
 }
 .fourthsection__container-about-position {
 font: normal 400 18px 'Raleway';
 text-transform: uppercase;
 color: #FF4343;
+position: relative;
+top: 5%;
 }
 .fourthsection__container-about-paragraph {
 font: normal 400 18px 'Raleway';
 color: #6C7279;
+position: relative;
+top: 7%;
 }
 .fourthsection__container-about-links-socialnetwork {
 max-width: 39px;
 max-height: 39px;
 width: 100%;
-height: 100%;
+height: auto;
+}
+.fourthsection__container-about-links {
+position: relative;
+top: 12%;
+}
+.col {
+width: 100%;
+height: auto;
+background: rgba(92, 50, 73, 1);
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.row {
+--bs-gutter-x: -0.5rem !important;
+margin-left: 0 !important;
+margin-right: 0 !important;
+}
+.carousel-inner-words {
+max-width: 471px;
+font: italic 400 36px 'Cardo';
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.carousel-indicators [data-bs-target] {
+background: url(/image/dot_not_active.svg);
+background-repeat: no-repeat;
+}
+.container-fluid {
+padding: 0 !important;
 }
