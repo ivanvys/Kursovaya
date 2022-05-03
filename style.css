@@ -335,3 +335,22 @@ margin: 0 auto;
 display: flex;
 justify-content: space-around;
 }
+.eighthsection{
+background: rgba(44, 49, 84, 1);
+height: 10vh;
+display: grid;
+align-items: center;
+}
+.eighthsection__container{
+margin: 0 auto;
+}
+.eighthsection__container-title {
+font: normal 400 1.4vw 'Raleway';
+margin: 0;
+text-align: center;
+text-transform: capitalize;
+color: #808080;
+}
+.colortext {
+color: white;
+}
