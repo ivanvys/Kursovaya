@@ -11,11 +11,11 @@ height: auto;
 }
 .firstsection {
 max-width: 100%;
-max-height: 747px;
 background: url(/image/Image_for_firstsection.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
+display: flex;
 }
 .firstsection__blackout {
 height: auto;
@@ -29,7 +29,15 @@ border-bottom: solid #BABBC5 1px;
 display: flex;
 align-items: center;
 justify-content: space-between;
-
+}
+.firstsection__header-logo {
+width: 100%;
+}
+.firstsection__header-logo-firstpic{
+width: 10vw;
+}
+.firstsection__header-logo-secondpic{
+width: 5vw;
 }
 .firstsection__header-menu {
 width: 100%;
@@ -39,7 +47,7 @@ display: flex;
 .firstsection__header-menu-chapter {
 width: 100%;
 max-width: 134px;
-font: 700 13px 'Raleway';
+font: 700 0.8vw 'Raleway';
 display: grid;
 height: 100px;
 align-items: center;
@@ -67,20 +75,18 @@ justify-content:space-around;
 text-align: center;
 text-transform: uppercase;
 color: #FFFFFF;
-font: normal 900 64px 'Raleway';
+font: normal 900 4vw 'Raleway';
 }
 .firstsection__section-paragraph {
-font: normal 400 24px 'Raleway';
+font: normal 400 2vw 'Raleway';
 text-align: center;
 color: #FFFFFF;
 }
 .firstsection__section-button {
-width: 100%;
-max-width: 369px;
-max-height: 80px;
-height: 100%;
+width: 25vw;
+height: 9vh;
 margin: 0 auto;
-font: normal 900 24px 'Raleway';
+font: normal 900 1.5vw 'Raleway';
 display: flex;
 align-items: center;
 justify-content: center;
@@ -103,7 +109,7 @@ height: 100%
 }
 .secondsection__container{
 max-width: 78%;
-height: 717px;
+height: 80vh;
 margin: 11vh auto;
 display: grid;
 grid-template-rows: 1fr 1fr;
@@ -118,13 +124,13 @@ align-items: center;
 justify-items: center;
 }
 .secondsection__container-content-title {
-font: normal 900 24px 'Raleway';
+font: normal 900 2vw 'Raleway';
 text-align: center;
 text-transform: uppercase;
 color: #2D3033;
 }
 .secondsection__container-content-paragraph {
-font: normal 400 18px 'Raleway';
+font: normal 400 1.2vw 'Raleway';
 text-align: center;
 color: #6C7279;
 }
@@ -216,30 +222,27 @@ width: 100%;
 height: auto;
 }
 .fourthsection__container-about-name {
-font: normal 700 24px 'Raleway';
+font: normal 700 1.6vw 'Raleway';
 text-transform: capitalize;
 color: #2D3033;
 position: relative;
 top: 5%;
 }
 .fourthsection__container-about-position {
-font: normal 400 18px 'Raleway';
+font: normal 400 1.2vw 'Raleway';
 text-transform: uppercase;
 color: #FF4343;
 position: relative;
 top: 5%;
 }
 .fourthsection__container-about-paragraph {
-font: normal 400 18px 'Raleway';
+font: normal 400 1.2vw 'Raleway';
 color: #6C7279;
 position: relative;
 top: 7%;
 }
 .fourthsection__container-about-links-socialnetwork {
-max-width: 39px;
-max-height: 39px;
-width: 100%;
-height: auto;
+width: 3vw;
 }
 .fourthsection__container-about-links {
 position: relative;
@@ -260,14 +263,75 @@ margin-right: 0 !important;
 }
 .carousel-inner-words {
 max-width: 471px;
-font: italic 400 36px 'Cardo';
+font: italic 400 2vw 'Cardo';
 text-transform: capitalize;
 color: #FFFFFF;
 }
 .carousel-indicators [data-bs-target] {
 background: url(/image/dot_not_active.svg);
 background-repeat: no-repeat;
+background-clip: border-box !important;
+padding: 1px !important;
 }
 .container-fluid {
 padding: 0 !important;
+}
+.carousel-indicators {
+bottom: -60px !important;
+}
+.sixthsector {
+width: 100%;
+height: auto;
+display: flex;
+}
+.sixthsector__container{
+max-width: 78%;
+height: auto;
+margin: 20vh auto;
+display: grid;
+grid-template-rows: 1fr 2fr 2fr;
+}
+.sixthsector__container-title {
+font: normal 500 2vw 'Raleway';
+text-align: center;
+}
+.sixthsector__container-paragraph {
+font: normal 700 1.4vw 'Raleway';
+text-align: center; 
+}
+.seventhsection {
+background: rgba(53, 60, 101, 1);
+}
+.seventhsection__container {
+width: 78%;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+height: 25vh;
+margin: 0 auto;
+}
+.seventhsection__secondcol-img{
+width: 3vw;
+}
+.seventhsection__col {
+text-align: center;
+display: grid;
+align-items: center;
+}
+.seventhsection__col-title {
+font: normal 700 1.4vw 'Raleway';
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.seventhsection__col-paragraph {
+font: normal 400 1.4vw 'Raleway';
+text-transform: capitalize;
+color: #FFFFFF;
+}
+.seventhsection__col-img {
+width: 50%;
+margin: 0 auto;
+}
+.seventhsection__col-img-wripper {
+display: flex;
+justify-content: space-around;
 }
