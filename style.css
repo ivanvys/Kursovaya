@@ -3,7 +3,7 @@
 margin: 0;
 }
 p {
-    margin-bottom: 0rem !important;
+margin-bottom: 0rem !important;
 }
 .body,html {
 width: 100%;
@@ -18,7 +18,7 @@ background-position: center;
 display: flex;
 }
 .firstsection__blackout {
-height: auto;
+height: 100%;
 background: url(/image/Image_for_firstsection_dark.svg);
 }
 .firstsection__header {
@@ -353,4 +353,126 @@ color: #808080;
 }
 .colortext {
 color: white;
+}
+#navigation {
+display: none;
+}
+@media (max-width:768px) {
+#navigation {
+display: flex;
+}
+.container-fluid{
+position: relative;
+bottom: 3vh;
+right: 7vw;
+}
+.bg-light {
+--bs-bg-opacity: 0 !important;
+}
+.fixed-top {
+top: 30px !important;
+right: 25px !important;
+}
+.firstsection__header-logo {
+display: none;
+}
+.navbar-brand {
+position: relative;
+left: 10vw;
+}
+.offcanvas-end {
+width: 100% !important;
+border-left: none !important;
+background: url(/image/Image_for_firstsection.jpg) !important;
+background-position-x: center !important;
+background-repeat: no-repeat !important;
+}
+.firstsection__header-menu{
+display: none;
+}
+.nav-link {
+color: white !important;
+font: normal 700 13px 'Raleway';
+line-height: 47px;
+text-align: left;
+}
+}
+@media (max-width:320px) {
+.firstsection__section-title {
+font-size: 36px;
+}
+.firstsection__section-paragraph {
+font-size: 14px;
+}
+.firstsection__section-button {
+width: 78vw;
+font-size: 24px;
+}
+.secondsection__container {
+grid-template-columns: none;
+height: 173vh;
+grid-gap: 10vh;
+}
+.secondsection__container-content-title {
+font-size: 6vw;
+}
+.secondsection__container-content-paragraph {
+font-size: 4vw;
+}
+.thirdsection {
+height: 75vh;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-template-columns: 1fr 1fr;
+}
+.thirdsection__images-title {
+font-size: 18px;
+}
+.thirdsection__images-paragraph {
+font-size: 14px;
+}
+.fourthsection__container {
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+grid-gap: 10vh;
+margin: 10vh auto;
+}
+.fourthsection__container-about-name {
+font-size: 18px;
+}
+.fourthsection__container-about-position {
+font-size: 14px;
+}
+.fourthsection__container-about-paragraph {
+font-size: 14px;
+}
+.fourthsection__container-about-links-socialnetwork {
+width: 9vw;
+}
+.row {
+display: block !important;
+}
+.carousel-inner-discription {
+height: 30vh;
+}
+.carousel-inner-words {
+font-size: 24px;
+}
+.sixthsector__container {
+margin: 10vh auto;
+grid-template-rows: 1fr 1fr 1fr;
+align-items: center;
+}
+.sixthsector__container-title {
+font-size: 18px;
+font-weight: 600;
+}
+.sixthsector__container-paragraph {
+font-size: 13px;
+font-weight: 700;
+}
+.seventhsection__container {
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr 1fr;
+height: 33vh;
+}
 }
