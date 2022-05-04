@@ -473,6 +473,20 @@ font-weight: 700;
 .seventhsection__container {
 grid-template-columns: 1fr;
 grid-template-rows: 1fr 1fr 1fr;
-height: 33vh;
+height: 55vh;
+}
+.seventhsection__col-title {
+font-size: 14px;
+margin: 0;
+}
+.seventhsection__col-paragraph {
+font-size: 14px;
+margin: 0;
+}
+.seventhsection__secondcol-img {
+width: 12vw;
+}
+.eighthsection__container-title {
+font-size: 14px;
 }
 }
