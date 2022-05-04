@@ -11,7 +11,7 @@ height: auto;
 }
 .firstsection {
 max-width: 100%;
-background: url(/image/Image_for_firstsection.jpg);
+background: url(image/Image_for_firstsection.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
@@ -19,7 +19,7 @@ display: flex;
 }
 .firstsection__blackout {
 height: 100%;
-background: url(/image/Image_for_firstsection_dark.svg);
+background: url(image/Image_for_firstsection_dark.svg);
 }
 .firstsection__header {
 width: 78%;
@@ -173,35 +173,35 @@ position: relative;
 top: 50%;
 }
 .thirdsection__images-table {
-background: url(/image/table.png);
+background: url(image/table.png);
 background-size: cover;
 }
 .thirdsection__images-sofa {
-background: url(/image/sofa.png);
+background: url(image/sofa.png);
 background-size: cover;
 }
 .thirdsection__images-sofa2 {
-background: url(/image/sofa2.png);
+background: url(image/sofa2.png);
 background-size: cover;
 }
 .thirdsection__images-chairs {
-background: url(/image/chairs.png);
+background: url(image/chairs.png);
 background-size: cover;
 }
 .thirdsection__images-chair {
-background: url(/image/chair.png);
+background: url(image/chair.png);
 background-size: cover;
 }
 .thirdsection__images-tableandchairs {
-background: url(/image/table_and_chairs.png);
+background: url(image/table_and_chairs.png);
 background-size: cover;
 }
 .thirdsection__images-bed {
-background: url(/image/bed.png);
+background: url(image/bed.png);
 background-size: cover;
 }
 .thirdsection__images-sofa3 {
-background: url(/image/sofa3.png);
+background: url(image/sofa3.png);
 background-size: cover;
 }
 .fourthsection {
@@ -268,7 +268,7 @@ text-transform: capitalize;
 color: #FFFFFF;
 }
 .carousel-indicators [data-bs-target] {
-background: url(/image/dot_not_active.svg);
+background: url(image/dot_not_active.svg);
 background-repeat: no-repeat;
 background-clip: border-box !important;
 padding: 1px !important;
@@ -383,7 +383,7 @@ left: 10vw;
 .offcanvas-end {
 width: 100% !important;
 border-left: none !important;
-background: url(/image/Image_for_firstsection.jpg) !important;
+background: url(image/Image_for_firstsection.jpg) !important;
 background-position-x: center !important;
 background-repeat: no-repeat !important;
 }
