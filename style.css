@@ -157,6 +157,10 @@ opacity: 1;
 background: rgba(255, 67, 67, 0.8);
 cursor: pointer;
 }
+.thirdsection__images-wripper:active {
+background: rgba(185, 12, 12, 0.8);
+}
+
 .thirdsection__images-title {
 font: normal 900 24px 'Raleway';
 text-align: center;
