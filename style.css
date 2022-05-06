@@ -5,6 +5,9 @@ margin: 0;
 p {
 margin-bottom: 0rem !important;
 }
+a {
+text-decoration: none !important;
+}
 .body,html {
 width: 100%;
 height: auto;
@@ -55,6 +58,7 @@ color: white;
 text-align: center;
 }
 .firstsection__header-menu-chapter:hover {
+color: white;
 border-bottom: #BABBC5 3px solid;
 height: 100px;
 cursor: pointer;
