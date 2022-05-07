@@ -420,8 +420,11 @@ font-size: 24px;
 }
 .secondsection__container {
 grid-template-columns: none;
-height: 173vh;
+height: 100%;
 grid-gap: 10vh;
+}
+.secondsection__container-content {
+grid-gap: 2vh;
 }
 .secondsection__container-content-title {
 font-size: 6vw;
