@@ -113,7 +113,7 @@ height: 100%
 }
 .secondsection__container{
 max-width: 78%;
-height: 80vh;
+height: 66vh;
 margin: 11vh auto;
 display: grid;
 grid-template-rows: 1fr 1fr;
@@ -401,6 +401,10 @@ color: white !important;
 font: normal 700 13px 'Raleway';
 line-height: 47px;
 text-align: left;
+}
+.btn-close {
+position: relative;
+right: 14%;
 }
 }
 @media (max-width:320px) {
